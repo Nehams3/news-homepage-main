@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    transition: all ease-in-out 250ms;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    padding: 4em 10em;
+}
+
+header {
+    margin-bottom: 2em;
+    width: 100%;
+    height: 5em;
+    color: hsl(236, 13%, 42%);
+}
+
+header svg {
+    float: left;
+    margin: 1em 0;
+}
+
+header ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+
+header li {
+    padding: 1em;
+}
+
+header li:hover,
+header li:focus {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0;
+}
+
+.left-container {
+    width: 70%;
+    margin-right: 2em;
+}
+
+.right-container {
+    width: 30%;
+    background-color: hsl(240, 100%, 5%);
+    padding: 1em;
+}
+
+.right-container h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.right-container h3 {
+    color: hsl(36, 100%, 99%);
+}
+
+.right-container p {
+    color: hsl(236, 13%, 42%);
+}
+
+.left-container img {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    height: .1em;
+    border: none;
+    background-color: hsl(236, 13%, 42%);
+}
+
+.left-bottom-container {
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.left-bottom-container h1 {
+    width: 40%;
+    text-align: left;
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0 2.5em 0 0;
+    line-height: 1;
+}
+
+.read-more {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 0.5em;
+}
+
+.read-more p {
+    text-align: left;
+    margin: 0;
+    padding-top: 0em;
+    padding-right: 3.5em;
+    line-height: 1.5;
+}
+
+.read-more a {
+    text-decoration: none;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    width: 12em;
+    height: 3em;
+    padding-top: 0.8em;
+    margin-top: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 0.9rem;
+}
+
+.read-more a:hover,
+.read-more a:focus {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.bottom-container {
+    display: flex;
+    height: 10em;
+    margin: 5em 0;
+}
+
+.cards {
+    display: flex;
+}
+
+.info {
+    margin-left: 1.5em;
+}
+
+.info h2 {
+    margin: 0;
+    color: hsl(233, 8%, 79%);
+    font-size: 2rem;
+}
+
+.info h3 {
+    font-weight: 800;
+}
+
+.info p {
+    padding-right: 5em;
+    line-height: 1.5;
+}
